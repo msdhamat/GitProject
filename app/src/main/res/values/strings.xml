@@ -9,4 +9,6 @@
     <string name="remember_me">Remember me</string>
     <string name="login">LOGIN</string>
     <string name="forgot_password">Forgot Password ?</string>
+    <string name="todo">TODO</string>
+    <string name="textname">Let\'Go</string>
 </resources>

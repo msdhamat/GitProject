@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuSplash"
+        android:title="Splash Screen"/>
+    <item
+        android:id="@+id/menuLogin"
+        android:title="Login Screen"/>
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About Screen"/>
+    <item
+        android:id="@+id/menuContactUs"
+        android:title="Contact Screen"/>
+</menu>

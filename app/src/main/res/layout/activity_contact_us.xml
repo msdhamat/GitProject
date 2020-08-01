@@ -6,4 +6,164 @@
     android:layout_height="match_parent"
     tools:context=".ContactUs">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+
+
+            android:background="@drawable/dialog_bg"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondary_text"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondary_text"
+                    android:text="sample Text">
+
+
+                </TextView>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_person_24">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+
+            android:background="@drawable/dialog_bg"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_person_24">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content" android:textColor="@color/secondary_text"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text">
+
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:elevation="20dp"
+
+            android:background="@drawable/dialog_bg"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp" android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:text="sample Text">
+
+
+                </TextView>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_person_24">
+
+            </ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 </android.support.constraint.ConstraintLayout>
